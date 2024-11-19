@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit Card Checkout</title>
+    <link rel="stylesheet" href="Credit Card Checkout.css" />
+  </head>
+  <body>
+    <div class="checkout-container">
+      <h1>Checkout</h1>
+      <form class="checkout-form">
+        <!-- Credit Card Number Field -->
+        <label for="card-number">Card Number</label>
+        <input
+          type="text"
+          id="card-number"
+          placeholder="1234 5678 9012 3456"
+          maxlength="19"
+          required
+        />
+
+        <!-- Expiry Date Fields -->
+        <div class="expiry-security">
+          <div class="expiry">
+            <label for="expiry-date">Expiry Date</label>
+            <input
+              type="text"
+              id="expiry-date"
+              placeholder="MM / YY"
+              maxlength="5"
+              required
+            />
+          </div>
+          <!-- Security Code Field -->
+          <div class="security">
+            <label for="security-code">Security Code</label>
+            <input
+              type="text"
+              id="security-code"
+              placeholder="CVV"
+              maxlength="3"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- Cardholder Name Field -->
+        <label for="cardholder-name">Cardholder Name</label>
+        <input
+          type="text"
+          id="cardholder-name"
+          placeholder="Name on Card"
+          required
+        />
+
+        <!-- Submit Button -->
+        <button type="submit">Confirm Payment</button>
+      </form>
+    </div>
+  </body>
+</html>

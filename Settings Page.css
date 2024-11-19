@@ -1,0 +1,55 @@
+/* CSS: settings.css */
+
+/* General Settings */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.settings-container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.settings-option:last-child {
+  border-bottom: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

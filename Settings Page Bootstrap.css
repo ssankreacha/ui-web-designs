@@ -1,0 +1,77 @@
+/* CSS: settings.css */
+
+/* Background Animation */
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(30, 144, 255, 0.8),
+    rgba(75, 0, 130, 0.8)
+  );
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  z-index: -1;
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Container Styling */
+.settings-container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px; /* Increased border radius for a more curved look */
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Settings Option Styling */
+.settings-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.settings-option:last-child {
+  border-bottom: none;
+}
+
+label {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+select,
+input,
+button {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+/* Dropdown Styling */
+select.form-control {
+  width: auto; /* Adjusts width to content */
+  background-color: rgba(0, 0, 0, 0.8); /* Sets background to black */
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s ease;
+}

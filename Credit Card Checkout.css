@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Container Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.checkout-container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header Styling */
+.checkout-container h1 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Form Field Styling */
+.checkout-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.checkout-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.expiry-security {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiry,
+.security {
+  width: 48%;
+}
+
+/* Submit Button Styling */
+.checkout-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-form button:hover {
+  background-color: #45a049;
+}

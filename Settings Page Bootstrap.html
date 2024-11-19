@@ -1,0 +1,59 @@
+<!-- HTML: Settings Page with Bootstrap and Animation -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Settings Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Settings Page Bootstrap.css" />
+  </head>
+
+  <body>
+    <div class="animated-bg"></div>
+
+    <!-- Background Animation -->
+    <div
+      class="container settings-container mt-5 p-4 text-white rounded shadow-lg"
+    >
+      <h2 class="text-center mb-4">Settings</h2>
+
+      <div class="settings-option">
+        <label>Theme</label>
+        <select class="form-control bg-transparent text-white">
+          <option>Light Mode</option>
+          <option>Dark Mode</option>
+        </select>
+      </div>
+
+      <div class="settings-option">
+        <label>Notifications</label>
+        <input type="checkbox" checked class="ml-3" />
+      </div>
+
+      <div class="settings-option">
+        <label>Privacy</label>
+        <button class="btn btn-outline-light ml-3">
+          Manage Privacy Settings
+        </button>
+      </div>
+
+      <div class="settings-option">
+        <label>Account</label>
+        <button class="btn btn-outline-light ml-3">Log Out</button>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
