@@ -1,5 +1,6 @@
-# UI Web Designs: UI & Web Desing Portfolio
+# UI Web Designs: UI & Web Design Portfolio
 
 ## Description
 
-This repository consists of all my current and ongoing UI and Web Design projects. These projects are individually uploaded also but for pragmatic reasons I've created this repository as a method to group my UI & Web Design based projects into 1 for showcasing purposes also.
+This repository consists of all my current and ongoing UI & Web Design projects. 
+These projects are also individually uploaded but for pragmatic reasons I've created this repository to group my UI & Web Design projects for showcasing purposes.
